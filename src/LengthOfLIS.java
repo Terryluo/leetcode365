@@ -2,9 +2,7 @@
 300. Longest Increasing Subsequence
 Medium
 
-Given an integer array nums, return the length of the longest strictly increasing
-subsequence
-.
+Given an integer array nums, return the length of the longest strictly increasing subsequence.
 
 Example 1:
 
@@ -44,13 +42,15 @@ public class LengthOfLIS {
         for (int i = 0; i < nums.length; i++) {
             //tbl is guaranteed to be in ascending order!!
             // from tbl, find the best(longest) ascending subsequence, which can concatenate nums[i] to form a new one
-            int index = largestSmaller(tbl, 1, result, nums[i]);
+            // int index = largestSmaller(tbl, 1, result, nums[i]); this one is incorrect
+            int index = find(tbl, 1, result, nums[i]);
             // there are two cases
             if (index == result) {
+                // if the current number is bigger than tbl[result], which is the largest number in the subsequence, we append the number to the end
                 result++;
                 tbl[result] = nums[i];
             } else {
-                // we find a better ascending subsequence
+                // we find a better ascending subsequence, tbl[index + 1] must smaller than nums[i], so we update tbl[index + 1]
                 tbl[index + 1] = nums[i];
             }
         }
@@ -58,6 +58,18 @@ public class LengthOfLIS {
     }
 
     private int largestSmaller(int[] tbl, int left, int right, int target) {
+        while (left < right - 1) {
+            int mid = left + (right - left) / 2;
+            if (tbl[mid] >= target) {
+                right = mid - 1;
+            } else {
+                left = mid;
+            }
+        }
+        return left;
+    }
+
+    private int find(int[] tbl, int left, int right, int target) {
         while (left < right - 1) {
             int mid = left + (right - left) / 2;
             if (tbl[mid] >= target) {
