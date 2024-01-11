@@ -44,34 +44,41 @@ Each node has a unique value.
 A node with a value of start exists in the tree.
 * */
 public class AmountOfTime {
-    int globalMax = 0;
     public int amountOfTime(TreeNode root, int start) {
-        boolean seeStart = false;
-        int result = helper(root, start, seeStart);
-        return globalMax;
+        // case 1, if both side report positive value, return Max(l + r) + 1
+        // case 2, if the current node is the start node, return -1;
+        // case 3, if one side is positive value the other side is negative value
+        int[] globalMax = new int[1];
+        helper(root, start, globalMax);
+        return globalMax[0];
     }
 
-    private int helper(TreeNode root, int start, boolean seeStart) {
+    private int helper(TreeNode root, int start, int[] globalMax) {
         if (root == null) {
             return 0;
         }
-        int left = helper(root.left, start, seeStart);
-        int right = helper(root.right, start, seeStart);
+        int left = helper(root.left, start, globalMax);
+        int right = helper(root.right, start, globalMax);
         if (root.val == start) {
-            seeStart = true;
-            return 1;
-        } else if (seeStart) {
-
-        } else if ((left < 0 && right > 0) || (left > 0 && right < 0)) {
+            return -1;
         }
-        return Math.max(left, right) + 1;
+        if (left < 0 || right < 0) {
+            int negative = left < 0 ? left : right;
+            globalMax[0] = Math.max(globalMax[0], Math.abs(left) + Math.abs(right));
+            return negative - 1;
+        }
+        int currentLevel = Math.max(left, right) + 1;
+        globalMax[0] = Math.max(globalMax[0], currentLevel);
+        return currentLevel;
     }
 
     public static void main(String[] args) {
         AmountOfTime aot = new AmountOfTime();
-        //TreeNode root = TreeNode.reconstructTreeFromLevelOrder(Arrays.asList("1","5","3","null","4","10","6","null","null","9","2"));
-        TreeNode root = TreeNode.reconstructTreeFromLevelOrder(Arrays.asList("1"));
-        int result = aot.amountOfTime(root, 1);
+        //TreeNode root = TreeNode.reconstructTreeFromLevelOrder(Arrays.asList("1")); // with 1
+        //TreeNode root = TreeNode.reconstructTreeForLeetcode(Arrays.asList(1,5,3,null,4,10,6,9,2)); // with 3
+        //TreeNode root = TreeNode.reconstructTreeForLeetcode(Arrays.asList(5,4,3)); // with 5
+        TreeNode root = TreeNode.reconstructTreeForLeetcode(Arrays.asList(16,null,20,7,12,null,15,null,19,null,1,2)); // with 1
+        int result = aot.amountOfTime(root, 5);
         System.out.println(result);
     }
 }

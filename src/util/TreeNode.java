@@ -1,7 +1,9 @@
 package util;
 
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /*
 Definition for a binary tree node.
@@ -20,6 +22,7 @@ public class TreeNode {
     }
 
     public static TreeNode reconstructTreeFromLevelOrder(List<String> array) {
+        // assume the array pass all the null points 
         if (array.size() == 0) return null;
         TreeNode root = new TreeNode(Integer.valueOf(array.get(0)));
         List<TreeNode> queue = new LinkedList<>();
@@ -52,6 +55,28 @@ public class TreeNode {
                         index += 2;
                     }
                 }
+            }
+        }
+        return root;
+    }
+
+    public static TreeNode reconstructTreeForLeetcode(List<Integer> array) {
+        if (array == null || array.size() == 0) return null;
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        int idx = 0;
+        TreeNode root = new TreeNode(array.get(idx++));
+        queue.offer(root);
+        while (idx < array.size()) {
+            TreeNode cur = queue.poll();
+            Integer left = array.get(idx++);
+            Integer right = idx < array.size()? array.get(idx++) : null;
+            if (left != null) {
+                cur.left = new TreeNode(left);
+                queue.offer(cur.left);
+            }
+            if (right != null) {
+                cur.right = new TreeNode(right);
+                queue.offer(cur.right);
             }
         }
         return root;
