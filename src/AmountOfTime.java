@@ -63,7 +63,6 @@ public class AmountOfTime {
         } else if (seeStart) {
 
         } else if ((left < 0 && right > 0) || (left > 0 && right < 0)) {
-            globalMax = Math.max(globalMax, )
         }
         return Math.max(left, right) + 1;
     }
@@ -76,3 +75,4 @@ public class AmountOfTime {
         System.out.println(result);
     }
 }
+
