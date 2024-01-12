@@ -22,7 +22,7 @@ public class TreeNode {
     }
 
     public static TreeNode reconstructTreeFromLevelOrder(List<String> array) {
-        // assume the array pass all the null points 
+        // assume the array pass all the null points
         if (array.size() == 0) return null;
         TreeNode root = new TreeNode(Integer.valueOf(array.get(0)));
         List<TreeNode> queue = new LinkedList<>();
