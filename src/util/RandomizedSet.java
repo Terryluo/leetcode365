@@ -1,4 +1,7 @@
 package util;
+
+import java.util.*;
+
 /*
 380. Insert Delete GetRandom O(1)
 Implement the RandomizedSet class:
@@ -36,22 +39,74 @@ At most 2 * 10^5 calls will be made to insert, remove, and getRandom.
 There will be at least one element in the data structure when getRandom is called.
 * */
 public class RandomizedSet {
+    private List<Integer> numberSet;
+    private Map<Integer, Integer> numberAndIndices;
+    private Random random;
     public RandomizedSet() {
-
+        this.numberSet = new ArrayList<>();
+        this.numberAndIndices = new HashMap<Integer,Integer>();// save the element and index
+        this.random = new Random();
     }
 
     public boolean insert(int val) {
-
+        // when insert, check if the element exists. If exist return false, then insert to the last place of the array;
+        if (numberAndIndices.containsKey(val)) {
+            return false;
+        }
+        numberSet.add(val);
+        numberAndIndices.put(val, numberSet.size() - 1);
+        return true;
     }
 
     public boolean remove(int val) {
-
+        // when remove, get the Random number from the array, then swap the last element to removed index
+        if (!numberAndIndices.containsKey(val)) {
+            return false;
+        }
+        int index = numberAndIndices.get(val);
+        numberSet.set(index, numberSet.get(numberSet.size() - 1));
+        numberAndIndices.put(numberSet.get(index), index);
+        numberAndIndices.remove(val);
+        numberSet.remove(numberSet.size() - 1);
+        return true;
     }
 
     public int getRandom() {
-
+        // return a number from 0 to size(excluded), assume size is not equals to 0
+        return numberSet.get(random.nextInt(numberSet.size()));
     }
 
+    public static void main(String[] args) {
+        RandomizedSet randomizedSet = new RandomizedSet();
+        //runscript1(randomizedSet);
+        runscript2(randomizedSet);
+        //runscript3(randomizedSet);
+    }
+    private static void runscript1(RandomizedSet randomizedSet) {
+        System.out.println(randomizedSet.insert(1)); // Inserts 1 to the set. Returns true as 1 was inserted successfully.
+        System.out.println(randomizedSet.remove(2)); // Returns false as 2 does not exist in the set.
+        System.out.println(randomizedSet.insert(2)); // Inserts 2 to the set, returns true. Set now contains [1,2].
+        System.out.println(randomizedSet.getRandom()); // getRandom() should return either 1 or 2 randomly.
+        System.out.println(randomizedSet.remove(1)); // Removes 1 from the set, returns true. Set now contains [2].
+        System.out.println(randomizedSet.insert(2)); // 2 was already in the set, so return false.
+        System.out.println(randomizedSet.getRandom()); // Since 2 is the only number in the set, getRandom() will always return 2.
+    }
+    private static void runscript2(RandomizedSet randomizedSet) {
+        System.out.println(randomizedSet.insert(0));
+        System.out.println(randomizedSet.insert(1));
+        System.out.println(randomizedSet.remove(0));
+        System.out.println(randomizedSet.insert(2));
+        System.out.println(randomizedSet.remove(1));
+        System.out.println(randomizedSet.getRandom());
+    }
+    private static void runscript3(RandomizedSet randomizedSet) {
+        System.out.println(randomizedSet.remove(0));
+        System.out.println(randomizedSet.remove(0));
+        System.out.println(randomizedSet.insert(0));
+        System.out.println(randomizedSet.getRandom());
+        System.out.println(randomizedSet.remove(0));
+        System.out.println(randomizedSet.insert(0));
+    }
 }
 
 /**
