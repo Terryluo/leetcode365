@@ -21,6 +21,30 @@ Explanation: The falling path with a minimum sum is shown.
 * */
 public class MinFallingPathSum {
     public int minFallingPathSum(int[][] matrix) {
-        
+        int[][] dp = new int[matrix.length][matrix[0].length];
+        // dp is the matrix that record the minimum falling path until current slot
+        int result = Integer.MAX_VALUE;
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                if (i == 0) {
+                    dp[i][j] = matrix[i][j];
+                } else {
+                    int preRowMin;
+                    if (j == 0) {
+                        preRowMin = Math.min(dp[i - 1][j], dp[i - 1][j + 1]);
+                    } else if (j == matrix[0].length - 1) {
+                        preRowMin = Math.min(dp[i - 1][j - 1], dp[i - 1][j]);
+                    } else {
+                        preRowMin = Math.min(dp[i - 1][j - 1], dp[i - 1][j]);
+                        preRowMin = Math.min(preRowMin, dp[i - 1][j + 1]);
+                    }
+                    dp[i][j] = preRowMin + matrix[i][j];
+                }
+                if (i == matrix.length - 1) {
+                    result = Math.min(dp[i][j], result);
+                }
+            }
+        }
+        return result;
     }
 }
