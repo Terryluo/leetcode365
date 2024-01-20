@@ -1,4 +1,3 @@
-import com.sun.source.tree.Tree;
 import util.TreeNode;
 
 import java.util.Arrays;
@@ -32,7 +31,7 @@ The number of nodes in the tree is in the range [1, 2 * 104].
 1 <= low <= high <= 105
 All Node.val are unique.
 * */
-public class RangeSumBST {
+public class RangeSumBST_938 {
     public int rangeSumBST(TreeNode root, int low, int high) {
         int[] result = new int[1];
         if (root.val < low) {
@@ -62,7 +61,7 @@ public class RangeSumBST {
     }
 
     public static void main(String[] args) {
-        RangeSumBST rsb = new RangeSumBST();
+        RangeSumBST_938 rsb = new RangeSumBST_938();
         TreeNode root1 = TreeNode.reconstructTreeFromLevelOrder(Arrays.asList("10","5","15","3","7","null","18"));
         int result1 = rsb.rangeSumBST(root1, 7, 15);
         System.out.println(result1);

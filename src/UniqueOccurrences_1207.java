@@ -29,7 +29,7 @@ Constraints:
 1 <= arr.length <= 1000
 -1000 <= arr[i] <= 1000
 * */
-public class UniqueOccurrences {
+public class UniqueOccurrences_1207 {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer, Integer> numbersAndOccurrences = new HashMap<>();
         for (int num : arr) {
