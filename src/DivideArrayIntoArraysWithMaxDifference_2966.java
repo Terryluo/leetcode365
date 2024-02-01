@@ -69,14 +69,19 @@ public class DivideArrayIntoArraysWithMaxDifference_2966 {
         }
 
         int[][] result = new int[nums.length / 3][3];
-        for (int n = 0, x = 0, y = 0; n < bucket.length;) {
+        for (int n = 0, x = 0, y = 0; x < result.length && n < bucket.length;) {
             if (bucket[n] == 0) {
                n++;
+            } else if (y == 3) {
+                // we are at the beginning
+                x++;
+                y = 0;
+            } else if (y == 0 || n - result[x][0] <= k) {
+                result[x][y++] = n;
+                bucket[n]--;
+            } else {
+                return new int[0][0];
             }
-            result[resultIdx][0] = nums[i];
-            result[resultIdx][1] = nums[i + 1];
-            result[resultIdx][2] = nums[i + 2];
-            resultIdx++;
         }
         return result;
     }
