@@ -44,7 +44,7 @@ Constraints:
 0 <= bricks <= 109
 0 <= ladders <= heights.length
 * */
-public class FurthestBuildingYouCanReach {
+public class FurthestBuildingYouCanReach_1642 {
     public int furthestBuilding(int[] heights, int bricks, int ladders) {
         PriorityQueue<Integer> p = new PriorityQueue<>((a, b) -> b - a);
 
