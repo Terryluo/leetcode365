@@ -1,5 +1,7 @@
 import util.TreeNode;
 
+import java.util.Arrays;
+
 /*
 543. Diameter of Binary Tree
 Easy
@@ -31,6 +33,27 @@ The number of nodes in the tree is in the range [1, 10^4].
 * */
 public class DiameterofBinaryTree_543 {
     public int diameterOfBinaryTree(TreeNode root) {
+        int[] result = new int[1];
+        height(root, result);
+        return result[0];
+    }
 
+    private int height(TreeNode root, int[] result) {
+        if (root == null) {
+            return 0;
+        } else if (root.left == null && root.right == null) {
+            // leaf node
+            return 1;
+        }
+        int left = height(root.left, result);
+        int right = height(root.right, result);
+        result[0] = Math.max(left + right, result[0]);;
+        return Math.max(left, right) + 1;
+    }
+
+    public static void main(String[] args) {
+        DiameterofBinaryTree_543 dobt = new DiameterofBinaryTree_543();
+        TreeNode root = TreeNode.reconstructTreeForLeetcode(Arrays.asList(4,-7,-3,null,null,-9,-3,9,-7,-4,null,6,null,-6,-6,null,null,0,6,5,null,9,null,null,-1,-4,null,null,null,-2));
+        System.out.println(dobt.diameterOfBinaryTree(root));
     }
 }
