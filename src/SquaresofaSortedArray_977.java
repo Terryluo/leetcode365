@@ -20,12 +20,31 @@ Output: [4,9,9,49,121]
 
 Constraints:
 
-1 <= nums.length <= 104
--104 <= nums[i] <= 104
+1 <= nums.length <= 10^4
+-10^4 <= nums[i] <= 10^4
 nums is sorted in non-decreasing order.
 * */
 public class SquaresofaSortedArray_977 {
     public int[] sortedSquares(int[] nums) {
-
+        //bucket sort the array, then create the square array
+        int[] bucket = new int[10001];
+        for (int num : nums) {
+            bucket[Math.abs(num)]++;
+        }
+        int[] result = new int[nums.length];
+        int idx = 0;
+        for (int i = 0; i < bucket.length; i++) {
+            if (bucket[i] == 0) {
+                continue;
+            }
+            while (bucket[i] > 0) {
+                result[idx] = i * i;
+                idx++;
+                bucket[i]--;
+            }
+        }
+        return result;
     }
 }
+// Time Complexity: O(2n);
+// Space Compelxity: O(2n);
