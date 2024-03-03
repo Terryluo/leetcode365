@@ -47,4 +47,4 @@ public class SquaresofaSortedArray_977 {
     }
 }
 // Time Complexity: O(2n);
-// Space Compelxity: O(2n);
+// Space Complexity: O(2n);
