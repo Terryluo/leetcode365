@@ -28,6 +28,8 @@ Both nums1 and nums2 are sorted in non-decreasing order.
 * */
 public class MinimumCommonValue_2540 {
     public int getCommon(int[] nums1, int[] nums2) {
+        //early termination, will have a faster time
+        if (nums1[nums1.length - 1] < nums2[0] || nums2[nums2.length - 1] < nums1[0]) return -1;
         // set two indices and the smaller-value moves;
         int index1 = 0, index2 = 0;
         while (index1 < nums1.length && index2 < nums2.length) {
