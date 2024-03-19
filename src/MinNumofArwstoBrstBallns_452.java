@@ -35,9 +35,9 @@ Explanation: The balloons can be burst by 2 arrows:
 
 Constraints:
 
-1 <= points.length <= 105
+1 <= points.length <= 10^5
 points[i].length == 2
--231 <= xstart < xend <= 231 - 1
+-2^31 <= xstart < xend <= 2^31 - 1
 * */
 public class MinNumofArwstoBrstBallns_452 {
     public int findMinArrowShots(int[][] points) {
