@@ -1,3 +1,5 @@
+import util.ListNode;
+
 /*
 206. Reverse Linked List
 Easy
