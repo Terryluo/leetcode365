@@ -69,6 +69,7 @@ public class OpentheLock_752 {
             int size = forward.size();
             while(size-- > 0) {
                 int cur = forward.poll();
+
                 for(int p: pow10) {
                     int d = (cur / p) % 10;
                     for(int i = -1; i <= 1; i += 2) {
