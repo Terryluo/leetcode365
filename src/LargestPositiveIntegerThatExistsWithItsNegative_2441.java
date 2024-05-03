@@ -33,6 +33,17 @@ nums[i] != 0
 * */
 public class LargestPositiveIntegerThatExistsWithItsNegative_2441 {
     public int findMaxK(int[] nums) {
-        return -1;
+        int[] record = new int[1001];
+        int result = -1;
+        for (int num : nums) {
+            int idx = num > 0 ? num : -num;
+            if (record[idx] != num) {
+                record[idx] += num;
+            }
+            if (record[idx] == 0) {
+                result = Math.max(result, idx);
+            }
+        }
+        return result;
     }
 }
