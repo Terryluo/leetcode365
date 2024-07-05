@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RemoveElement_27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Subsets_78.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumofAllSubsetXORTotals_1863.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestLocalDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Permutations_46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CISC699/online-food-delivery/online-delivery-backend" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.TestLocalDateTime">
+  <component name="RunManager" selected="Application.Permutations_46">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DailyTemperatures_739" />
       <module name="leetcode" />
@@ -132,15 +130,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximizeHappinessofSelectedChildren_3075" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximizeHappinessofSelectedChildren_3075" />
+    <configuration name="MinOperations" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MinOperations" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinOperations" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="MinOperations" />
+    <configuration name="Permutations_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutations_46" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,19 +202,19 @@
       <item itemvalue="Application.SequentialDigits_1291" />
       <item itemvalue="Application.GroupAnagrams_49" />
       <item itemvalue="Application.MaxAncestorDiff" />
-      <item itemvalue="Application.MaximizeHappinessofSelectedChildren_3075" />
       <item itemvalue="Application.KthSmallestPrimeFraction_786" />
       <item itemvalue="Application.DeleteLeavesWithaGivenValue_1325" />
       <item itemvalue="Application.SmallestStringStartingFromLeaf_988" />
       <item itemvalue="Application.TestLocalDateTime" />
+      <item itemvalue="Application.Permutations_46" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutations_46" />
         <item itemvalue="Application.TestLocalDateTime" />
         <item itemvalue="Application.SmallestStringStartingFromLeaf_988" />
         <item itemvalue="Application.DeleteLeavesWithaGivenValue_1325" />
         <item itemvalue="Application.KthSmallestPrimeFraction_786" />
-        <item itemvalue="Application.MaximizeHappinessofSelectedChildren_3075" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +253,7 @@
       <workItem from="1717437484580" duration="482000" />
       <workItem from="1717537038324" duration="875000" />
       <workItem from="1718326145087" duration="1360000" />
-      <workItem from="1719967679556" duration="842000" />
+      <workItem from="1719967679556" duration="6555000" />
     </task>
     <servers />
   </component>
@@ -371,11 +369,6 @@
           <url>file://$PROJECT_DIR$/src/NumberofStudentsUnabletoEatLunch_1700.java</url>
           <line>52</line>
           <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SmallestStringStartingFromLeaf_988.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BoatstoSavePeople_881.java</url>
