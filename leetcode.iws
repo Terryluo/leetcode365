@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FindtheCityWiththeSmallestNumberofNeighborsataThresholdDistance_1334.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinimumCosttoConvertStringI_2976.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +45,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CISC699/online-food-delivery/online-delivery-backend" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.SorttheJumbledNumbers_2191">
+  <component name="RunManager" selected="Application.MinimumCosttoConvertStringI_2976">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DailyTemperatures_739" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteLeavesWithaGivenValue_1325" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeleteLeavesWithaGivenValue_1325" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,6 +118,13 @@
     </configuration>
     <configuration name="MinOperations" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MinOperations" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumCosttoConvertStringI_2976" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumCosttoConvertStringI_2976" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,19 +202,19 @@
       <item itemvalue="Application.SequentialDigits_1291" />
       <item itemvalue="Application.GroupAnagrams_49" />
       <item itemvalue="Application.MaxAncestorDiff" />
-      <item itemvalue="Application.DeleteLeavesWithaGivenValue_1325" />
       <item itemvalue="Application.SmallestStringStartingFromLeaf_988" />
       <item itemvalue="Application.TestLocalDateTime" />
       <item itemvalue="Application.Permutations_46" />
       <item itemvalue="Application.SorttheJumbledNumbers_2191" />
+      <item itemvalue="Application.MinimumCosttoConvertStringI_2976" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumCosttoConvertStringI_2976" />
         <item itemvalue="Application.SorttheJumbledNumbers_2191" />
         <item itemvalue="Application.Permutations_46" />
         <item itemvalue="Application.TestLocalDateTime" />
         <item itemvalue="Application.SmallestStringStartingFromLeaf_988" />
-        <item itemvalue="Application.DeleteLeavesWithaGivenValue_1325" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,8 @@
       <workItem from="1717537038324" duration="875000" />
       <workItem from="1718326145087" duration="1360000" />
       <workItem from="1719967679556" duration="9792000" />
-      <workItem from="1721512305159" duration="19857000" />
+      <workItem from="1721512305159" duration="20476000" />
+      <workItem from="1722080881984" duration="6705000" />
     </task>
     <servers />
   </component>
@@ -405,6 +406,21 @@
           <url>file://$PROJECT_DIR$/src/SorttheJumbledNumbers_2191.java</url>
           <line>60</line>
           <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinimumCosttoConvertStringI_2976.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinimumCosttoConvertStringI_2976.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinimumCosttoConvertStringI_2976.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DiameterofBinaryTree_543.java</url>
