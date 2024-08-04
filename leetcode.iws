@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MinimumSwapstoGroupAll1sTogetherII_2134.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MakeTwoArraysEqualbyReversingSubarrays_1460.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RangeSumofSortedSubarraySums_1508.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CISC699/online-food-delivery/online-delivery-backend" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.MinimumSwapstoGroupAll1sTogetherII_2134">
+  <component name="RunManager" selected="Application.RangeSumofSortedSubarraySums_1508">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DailyTemperatures_739" />
       <module name="leetcode" />
@@ -144,13 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Permutations_46" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PseudoPalindromicPaths_1457" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="PseudoPalindromicPaths_1457" />
       <module name="leetcode" />
@@ -167,6 +161,13 @@
     </configuration>
     <configuration name="RangeSumBST" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="RangeSumBST_938" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RangeSumofSortedSubarraySums_1508" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RangeSumofSortedSubarraySums_1508" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,19 +203,19 @@
       <item itemvalue="Application.SequentialDigits_1291" />
       <item itemvalue="Application.GroupAnagrams_49" />
       <item itemvalue="Application.MaxAncestorDiff" />
-      <item itemvalue="Application.Permutations_46" />
       <item itemvalue="Application.SorttheJumbledNumbers_2191" />
       <item itemvalue="Application.MinimumCosttoConvertStringI_2976" />
       <item itemvalue="Application.MinimumDeletionstoMakeStringBalanced_1653" />
       <item itemvalue="Application.MinimumSwapstoGroupAll1sTogetherII_2134" />
+      <item itemvalue="Application.RangeSumofSortedSubarraySums_1508" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RangeSumofSortedSubarraySums_1508" />
         <item itemvalue="Application.MinimumSwapstoGroupAll1sTogetherII_2134" />
         <item itemvalue="Application.MinimumDeletionstoMakeStringBalanced_1653" />
         <item itemvalue="Application.MinimumCosttoConvertStringI_2976" />
         <item itemvalue="Application.SorttheJumbledNumbers_2191" />
-        <item itemvalue="Application.Permutations_46" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +256,7 @@
       <workItem from="1718326145087" duration="1360000" />
       <workItem from="1719967679556" duration="9792000" />
       <workItem from="1721512305159" duration="20476000" />
-      <workItem from="1722080881984" duration="21863000" />
+      <workItem from="1722080881984" duration="29386000" />
     </task>
     <servers />
   </component>
@@ -427,11 +428,6 @@
           <line>58</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MinimumSwapstoGroupAll1sTogetherII_2134.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DiameterofBinaryTree_543.java</url>
           <line>40</line>
@@ -445,6 +441,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="root.val" />
+        <watch expression="pq.toArray()[600]" />
       </configuration>
     </watches-manager>
   </component>
