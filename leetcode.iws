@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MagicSquaresInGrid_840.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegionsCutBySlashes_959.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +255,7 @@
       <workItem from="1718326145087" duration="1360000" />
       <workItem from="1719967679556" duration="9792000" />
       <workItem from="1721512305159" duration="20476000" />
-      <workItem from="1722080881984" duration="42111000" />
+      <workItem from="1722080881984" duration="44133000" />
     </task>
     <servers />
   </component>
