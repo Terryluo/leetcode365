@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maximum_Distance_in_Arrays_624.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maximum_Number_of_Points_with_Cost_1937.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +259,7 @@
       <workItem from="1723508036942" duration="2297000" />
       <workItem from="1723555653422" duration="877000" />
       <workItem from="1723639622810" duration="5991000" />
-      <workItem from="1723812263532" duration="1299000" />
+      <workItem from="1723812263532" duration="5702000" />
     </task>
     <servers />
   </component>
