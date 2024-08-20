@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ugly_Number_II_264.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Keys_Keyboard_650.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +260,8 @@
       <workItem from="1723555653422" duration="877000" />
       <workItem from="1723639622810" duration="5991000" />
       <workItem from="1723812263532" duration="7709000" />
-      <workItem from="1724008627807" duration="2845000" />
+      <workItem from="1724008627807" duration="2883000" />
+      <workItem from="1724033310953" duration="228000" />
     </task>
     <servers />
   </component>
