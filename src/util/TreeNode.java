@@ -96,4 +96,37 @@ public class TreeNode {
             }
         }
     }
+
+    public static List<TreeNode> findNodesInRangeOfBST(TreeNode root, int min, int max) {
+        // three situations
+        // root value <= min -> go right, root.value >= max -> go left, max < root.value < max use bst maybe better
+        List<TreeNode> result = new ArrayList<>();
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            TreeNode curr = queue.poll();
+            if (curr.val < min) {
+                if (curr.right != null && curr.right.val > max) {
+                    return new ArrayList<>();
+                } else if (curr.right != null) {
+                    queue.offer(curr.right);
+                }
+            } else if (curr.val > max) {
+                if (curr.left != null && curr.left.val < min) {
+                    return new ArrayList<>();
+                } else if (curr.left != null) {
+                    queue.offer(curr.left);
+                }
+            } else {
+                result.add(curr);
+                if (curr.right != null) {
+                    queue.offer(curr.right);
+                }
+                if (curr.left != null) {
+                    queue.offer(curr.left);
+                }
+            }
+        }
+        return result;
+    }
 }
