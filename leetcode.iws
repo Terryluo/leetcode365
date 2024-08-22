@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Two_Keys_Keyboard_650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strange_Printer_664.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stone_Game_II_1140.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stone_Game_II_1140.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +262,7 @@
       <workItem from="1723639622810" duration="5991000" />
       <workItem from="1723812263532" duration="7709000" />
       <workItem from="1724008627807" duration="2883000" />
-      <workItem from="1724033310953" duration="228000" />
+      <workItem from="1724033310953" duration="3236000" />
     </task>
     <servers />
   </component>
