@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bus_Routs_815.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fraction_Addition_and_Subtraction_592.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,19 +32,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/CompareVersionNumbers_165.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2aTFAsLyG2OrYuyGAISh50rUwol" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LaiCodeTraining" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Application.find_nodes_in_range_of_BST">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
@@ -261,8 +257,8 @@
       <workItem from="1723639622810" duration="5991000" />
       <workItem from="1723812263532" duration="7709000" />
       <workItem from="1724008627807" duration="2883000" />
-      <workItem from="1724033310953" duration="6455000" />
-      <workItem from="1724724500214" duration="8133000" />
+      <workItem from="1724033310953" duration="6410000" />
+      <workItem from="1724377355168" duration="855000" />
     </task>
     <servers />
   </component>
