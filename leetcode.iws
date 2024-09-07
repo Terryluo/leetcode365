@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Fraction_Addition_and_Subtraction_592.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sum_of_Digits_of_String_After_Convert_1945.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.find_nodes_in_range_of_BST">
+  <component name="RunManager" selected="Application.Sum_of_Digits_of_String_After_Convert_1945">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DailyTemperatures_739" />
       <module name="leetcode" />
@@ -119,13 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumDeletionstoMakeStringBalanced_1653" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinimumDeletionstoMakeStringBalanced_1653" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinimumSwapstoGroupAll1sTogetherII_2134" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinimumSwapstoGroupAll1sTogetherII_2134" />
       <module name="leetcode" />
@@ -168,6 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sum_of_Digits_of_String_After_Convert_1945" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sum_of_Digits_of_String_After_Convert_1945" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ugly_Number_II_264" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ugly_Number_II_264" />
       <module name="leetcode" />
@@ -198,19 +197,19 @@
       <item itemvalue="Application.SequentialDigits_1291" />
       <item itemvalue="Application.GroupAnagrams_49" />
       <item itemvalue="Application.MaxAncestorDiff" />
-      <item itemvalue="Application.MinimumDeletionstoMakeStringBalanced_1653" />
       <item itemvalue="Application.MinimumSwapstoGroupAll1sTogetherII_2134" />
       <item itemvalue="Application.RangeSumofSortedSubarraySums_1508" />
       <item itemvalue="Application.Ugly_Number_II_264" />
       <item itemvalue="Application.find_nodes_in_range_of_BST" />
+      <item itemvalue="Application.Sum_of_Digits_of_String_After_Convert_1945" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum_of_Digits_of_String_After_Convert_1945" />
         <item itemvalue="Application.find_nodes_in_range_of_BST" />
         <item itemvalue="Application.Ugly_Number_II_264" />
         <item itemvalue="Application.RangeSumofSortedSubarraySums_1508" />
         <item itemvalue="Application.MinimumSwapstoGroupAll1sTogetherII_2134" />
-        <item itemvalue="Application.MinimumDeletionstoMakeStringBalanced_1653" />
       </list>
     </recent_temporary>
   </component>
@@ -429,6 +428,11 @@
           <url>file://$PROJECT_DIR$/src/MinimumDeletionstoMakeStringBalanced_1653.java</url>
           <line>58</line>
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sum_of_Digits_of_String_After_Convert_1945.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DiameterofBinaryTree_543.java</url>
