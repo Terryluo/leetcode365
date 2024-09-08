@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sum_of_Digits_of_String_After_Convert_1945.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Split_Linked_List_in_Parts_725.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,9 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Application.Sum_of_Digits_of_String_After_Convert_1945">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
@@ -258,6 +262,7 @@
       <workItem from="1724008627807" duration="2883000" />
       <workItem from="1724033310953" duration="6410000" />
       <workItem from="1724377355168" duration="855000" />
+      <workItem from="1725756876786" duration="2072000" />
     </task>
     <servers />
   </component>
