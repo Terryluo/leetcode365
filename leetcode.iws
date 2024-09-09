@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Split_Linked_List_in_Parts_725.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Spiral_Matrix_IV_2326.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +42,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Sum_of_Digits_of_String_After_Convert_1945">
+  <component name="RunManager" selected="Application.Spiral_Matrix_IV_2326">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DailyTemperatures_739" />
       <module name="leetcode" />
@@ -122,13 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSwapstoGroupAll1sTogetherII_2134" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinimumSwapstoGroupAll1sTogetherII_2134" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PseudoPalindromicPaths_1457" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="PseudoPalindromicPaths_1457" />
       <module name="leetcode" />
@@ -159,6 +152,13 @@
     </configuration>
     <configuration name="SequentialDigits_1291" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="SequentialDigits_1291" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spiral_Matrix_IV_2326" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spiral_Matrix_IV_2326" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,19 +201,19 @@
       <item itemvalue="Application.SequentialDigits_1291" />
       <item itemvalue="Application.GroupAnagrams_49" />
       <item itemvalue="Application.MaxAncestorDiff" />
-      <item itemvalue="Application.MinimumSwapstoGroupAll1sTogetherII_2134" />
       <item itemvalue="Application.RangeSumofSortedSubarraySums_1508" />
       <item itemvalue="Application.Ugly_Number_II_264" />
       <item itemvalue="Application.find_nodes_in_range_of_BST" />
       <item itemvalue="Application.Sum_of_Digits_of_String_After_Convert_1945" />
+      <item itemvalue="Application.Spiral_Matrix_IV_2326" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spiral_Matrix_IV_2326" />
         <item itemvalue="Application.Sum_of_Digits_of_String_After_Convert_1945" />
         <item itemvalue="Application.find_nodes_in_range_of_BST" />
         <item itemvalue="Application.Ugly_Number_II_264" />
         <item itemvalue="Application.RangeSumofSortedSubarraySums_1508" />
-        <item itemvalue="Application.MinimumSwapstoGroupAll1sTogetherII_2134" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,7 @@
       <workItem from="1724008627807" duration="2883000" />
       <workItem from="1724033310953" duration="6410000" />
       <workItem from="1724377355168" duration="855000" />
-      <workItem from="1725756876786" duration="2072000" />
+      <workItem from="1725756876786" duration="6236000" />
     </task>
     <servers />
   </component>
@@ -438,6 +438,11 @@
           <url>file://$PROJECT_DIR$/src/Sum_of_Digits_of_String_After_Convert_1945.java</url>
           <line>54</line>
           <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Spiral_Matrix_IV_2326.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DiameterofBinaryTree_543.java</url>
