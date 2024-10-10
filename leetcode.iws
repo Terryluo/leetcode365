@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/My_Calendar_I_729.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maximum_Width_Ramp_962.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Minimum_Time_Difference_539.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Minimum_Time_Difference_539.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Minimum_Time_Difference_539">
+  <component name="RunManager" selected="Application.Maximum_Width_Ramp_962">
     <configuration name="DailyTemperatures_739" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DailyTemperatures_739" />
       <module name="leetcode" />
@@ -115,6 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Maximum_Width_Ramp_962" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maximum_Width_Ramp_962" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinOperations" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MinOperations" />
       <module name="leetcode" />
@@ -171,13 +179,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ugly_Number_II_264" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ugly_Number_II_264" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="find_nodes_in_range_of_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="find_nodes_in_range_of_BST" />
       <module name="leetcode" />
@@ -201,19 +202,19 @@
       <item itemvalue="Application.SequentialDigits_1291" />
       <item itemvalue="Application.GroupAnagrams_49" />
       <item itemvalue="Application.MaxAncestorDiff" />
-      <item itemvalue="Application.Ugly_Number_II_264" />
       <item itemvalue="Application.find_nodes_in_range_of_BST" />
       <item itemvalue="Application.Sum_of_Digits_of_String_After_Convert_1945" />
       <item itemvalue="Application.Spiral_Matrix_IV_2326" />
       <item itemvalue="Application.Minimum_Time_Difference_539" />
+      <item itemvalue="Application.Maximum_Width_Ramp_962" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maximum_Width_Ramp_962" />
         <item itemvalue="Application.Minimum_Time_Difference_539" />
         <item itemvalue="Application.Spiral_Matrix_IV_2326" />
         <item itemvalue="Application.Sum_of_Digits_of_String_After_Convert_1945" />
         <item itemvalue="Application.find_nodes_in_range_of_BST" />
-        <item itemvalue="Application.Ugly_Number_II_264" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +266,9 @@
       <workItem from="1725756876786" duration="9277000" />
       <workItem from="1726449828375" duration="2488000" />
       <workItem from="1726538138984" duration="5029000" />
-      <workItem from="1727315389767" duration="1479000" />
+      <workItem from="1727315389767" duration="2169000" />
+      <workItem from="1728522842665" duration="1773000" />
+      <workItem from="1728564883908" duration="639000" />
     </task>
     <servers />
   </component>
@@ -451,6 +454,16 @@
           <url>file://$PROJECT_DIR$/src/Minimum_Time_Difference_539.java</url>
           <line>47</line>
           <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Maximum_Width_Ramp_962.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Maximum_Width_Ramp_962.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DiameterofBinaryTree_543.java</url>
