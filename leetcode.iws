@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f44653-e200-4eea-9b41-129501b2473d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maximum_Width_Ramp_962.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Minimum_Time_Difference_539.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Minimum_Time_Difference_539.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +266,8 @@
       <workItem from="1726538138984" duration="5029000" />
       <workItem from="1727315389767" duration="2169000" />
       <workItem from="1728522842665" duration="1773000" />
-      <workItem from="1728564883908" duration="639000" />
+      <workItem from="1728564883908" duration="1997000" />
+      <workItem from="1730941760630" duration="1321000" />
     </task>
     <servers />
   </component>
